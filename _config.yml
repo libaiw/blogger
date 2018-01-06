@@ -1,7 +1,7 @@
 # Site settings
 title: Emerald | A simple Jekyll blog
 description: "A minimal blog template, build with Jekyll."
-url: "http://libaiw.github.io/blogger"
+url: "http://libaiw.github.io/"
 author:
   name: "Jacopo Rabolini"
   email: "hello@jacoporabolini.com"
