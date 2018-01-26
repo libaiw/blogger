@@ -7,7 +7,7 @@ Since Google change the policy of data queries, "datareader" of panda for Python
 
 > pandas_datareader snippet 
 
-...Python
+...
 <p>
 import pandas_datareader.data as web
 import datetime
