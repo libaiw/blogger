@@ -72,7 +72,7 @@ print(data.head())
 ```
 
 >> Seoond way to replace the old codes
-```
+```python
 import datetime
 
 from pandas.compat import StringIO, bytes_to_str
