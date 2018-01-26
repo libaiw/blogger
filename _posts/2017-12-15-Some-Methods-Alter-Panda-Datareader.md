@@ -7,6 +7,8 @@ Since Google change the policy of data queries, "datareader" of panda for Python
 
 > pandas_datareader snippet 
 
+...Python
+<p>
 import pandas_datareader.data as web
 import datetime
 
@@ -21,9 +23,11 @@ else:
     f = web.DataReader("SIE.DE", 'yahoo', start, end)
 
 print(f.Close)
-
+</p>
+...
 
 >>
+
 import datetime
 import requests
 from io import StringIO
@@ -133,3 +137,4 @@ data
 # 2017-11-30  170.43  172.14  168.44  171.85   41527218
 # 2017-12-01  169.95  171.67  168.50  171.05   39759288
 # 2017-12-04  172.48  172.62  169.63  169.80   32542385
+
