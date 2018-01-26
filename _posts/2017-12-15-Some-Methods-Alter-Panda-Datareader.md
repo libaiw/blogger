@@ -7,9 +7,10 @@ Since Google change the policy of data queries, "datareader" of panda for Python
 
 > pandas_datareader snippet 
 
-...
+```python
 <p>
 import pandas_datareader.data as web
+
 import datetime
 
 start = datetime.datetime(2017, 1, 1)
@@ -24,10 +25,11 @@ else:
 
 print(f.Close)
 </p>
-...
+```
 
->>
+>> Write the base url to replace the old one
 
+```python
 import datetime
 import requests
 from io import StringIO
@@ -67,8 +69,10 @@ data = pd.read_csv(StringIO(data), index_col='Date', parse_dates=True)
 
 print(data.head())
 
+```
 
->>
+>> Seoond way to replace the old codes
+```
 import datetime
 
 from pandas.compat import StringIO, bytes_to_str
@@ -137,4 +141,4 @@ data
 # 2017-11-30  170.43  172.14  168.44  171.85   41527218
 # 2017-12-01  169.95  171.67  168.50  171.05   39759288
 # 2017-12-04  172.48  172.62  169.63  169.80   32542385
-
+```
