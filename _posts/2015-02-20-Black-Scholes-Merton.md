@@ -75,9 +75,9 @@ $$\mathrm C(208.99,0.21095)= (0.3516077)(208.99) - (0.3135993)(210) \mathrm e^{-
 
 You should pay around \$2.35 (per share) for the options contract. As a side note, options contracts are sold in lots of 100 shares, 
 so this particular contract would sell for roughly \$235.
+\frac{\partial \mathrm C}{ \partial \mathrm t } + \frac{1}{2}\sigma^{2} \mathrm S^{2} \frac{\partial^{2} \mathrm C}{\partial \mathrm C^2} + \mathrm r \mathrm S \frac{\partial \mathrm C}{\partial \mathrm S}\ = \mathrm r \mathrm C
 
-
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+<img src="https://latex.codecogs.com/svg.latex?\frac{\partial \mathrm C}{ \partial \mathrm t } + \frac{1}{2}\sigma^{2} \mathrm S^{2} \frac{\partial^{2} \mathrm C}{\partial \mathrm C^2} + \mathrm r \mathrm S \frac{\partial \mathrm C}{\partial \mathrm S}\ = \mathrm r \mathrm C" title="Black-Scholes-Formula" />
 
  h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
 
