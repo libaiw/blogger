@@ -1,12 +1,13 @@
 ---
 title: Black-Scholes-Merton Formula 
 ---
-
+\[
 \alpha 
 \frac{\frac{x}{1}}{x - y}
 ^3/_7
+\]
 
-
+\[
 \begin{equation*}
 \mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
 \mathbf{i} & \mathbf{j} & \mathbf{k} \\
@@ -14,3 +15,4 @@ title: Black-Scholes-Merton Formula
 \frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0
 \end{vmatrix}
 \end{equation*}
+\]
