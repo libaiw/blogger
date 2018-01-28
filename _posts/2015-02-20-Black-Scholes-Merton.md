@@ -38,27 +38,28 @@ The Black-Scholes formula allows us the calculate the price of European call and
 [//]:	\end{equation}
 
 <img src="https://latex.codecogs.com/svg.latex?\mathrm d_1= \frac{1}{\sigma \sqrt{\mathrm t}} \left[\ln{\left(\frac{S}{K}\right)} + t\left(r + \frac{\sigma^2}{2} \right) \right]" title="Black-Scholes-Formula-2" />
-
-[Comments]:
+<!--
 \begin{equation}
 	\mathrm d_1= \frac{1}{\sigma \sqrt{\mathrm t}} \left[\ln{\left(\frac{S}{K}\right)} + t\left(r + \frac{\sigma^2}{2} \right) \right]
 \end{equation}
+-->
 
 <img src="https://latex.codecogs.com/svg.latex?\mathrm d_2= \frac{1}{\sigma \sqrt{\mathrm t}} \left[\ln{\left(\frac{S}{K}\right)} + t\left(r - \frac{\sigma^2}{2} \right) \right]" title="Black-Scholes-Formula-3" />
-[Comments]
+<!--
 \begin{equation}
 	\mathrm d_2= \frac{1}{\sigma \sqrt{\mathrm t}} \left[\ln{\left(\frac{S}{K}\right)} + t\left(r - \frac{\sigma^2}{2} \right) \right]
 \end{equation}
+-->
 
 <img src="https://latex.codecogs.com/svg.latex?\N(x)=\frac{1}{\sqrt{2\pi}} \int_{-\infty}^{x} \mathrm e^{-\frac{1}{2}z^2} dz" title="Black-Scholes-Formula-2" />
-[Comments]:
+<!--
 \begin{equation}
 	N(x)=\frac{1}{\sqrt{2\pi}} \int_{-\infty}^{x} \mathrm e^{-\frac{1}{2}z^2} dz
 	\label{eq:5}
 \end{equation}
+-->
 
-
-\section{Example}
+## Example
 You want to buy an IBM European call option with a strike price of \$210. The stock is currently trading at a price of \$208.99 . You calculate the volatility of the stock to be 17\%. 
 The rate at which you can borrow and lend money is 5\% (this is the risk-free interest rate). 
 The time to maturity of the option is 77 days. What price should you pay (per share) for the option contract?
