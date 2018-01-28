@@ -97,7 +97,6 @@ Now we plug these in equation eq:2 to calculate the price of the call option (pe
 You should pay around \$2.35 (per share) for the options contract. As a side note, options contracts are sold in lots of 100 shares, 
 so this particular contract would sell for roughly \$235.
 
-\frac{\partial \mathrm C}{ \partial \mathrm t } + \frac{1}{2}\sigma^{2} \mathrm S^{2} \frac{\partial^{2} \mathrm C}{\partial \mathrm C^2} + \mathrm r \mathrm S \frac{\partial \mathrm C}{\partial \mathrm S}\ = \mathrm r \mathrm C
 
 <img src="https://latex.codecogs.com/svg.latex?\frac{\partial \mathrm C}{ \partial \mathrm t } + \frac{1}{2}\sigma^{2} \mathrm S^{2} \frac{\partial^{2} \mathrm C}{\partial \mathrm C^2} + \mathrm r \mathrm S \frac{\partial \mathrm C}{\partial \mathrm S}\ = \mathrm r \mathrm C" title="Black-Scholes-Formula" />
 
