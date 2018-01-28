@@ -1,22 +1,27 @@
 ---
 title: Black-Scholes-Merton Formula 
 ---
+Black-Scholes, or sometimes Black-Scholes-Merton, is a mathematical model that seeks to explain the behavior of financial derivatives, most commonly options. 
+    It was proposed by Black and Scholes in 1973. It gave theoretical support for trading options to hedge positions, 
+    which had been practice but lacked solid support. From the model we are able to calculate what the price of an option should be based on a number of 
+	different factors. Nowadays there are numerous variations of the Black-Scholes model, each of which seeks to improve the model based on certain criteria, 
+	usually at the cost of a significant increase in complexity. This paper will focus on the original model, the basis for all other models.
+ 
+\
+	\ C = Call option price 
+	\ S = Current stock price
+	\ K = Strike price of the option
+	\ r = risk-free interest rate (a number between 0 and 1)
+	\ $\sigma$ = volatility of the stocks return (a number between 0 and 1)
+	\ t = time to option maturity (in years)
+	\ N = normal cumulative distribution function
+\
 
 
-\begin{itemize}
-	\item[] C = Call option price 
-	\item[] S = Current stock price
-	\item[] K = Strike price of the option
-	\item[] r = risk-free interest rate (a number between 0 and 1)
-	\item[] $\sigma$ = volatility of the stocks return (a number between 0 and 1)
-	\item[] t = time to option maturity (in years)
-	\item[] N = normal cumulative distribution function
-\end{itemize}
+## Black-Scholes Equation
+The Black-Scholes equation describes the price of an option over time. The derivation of this equation is complex and exceeds the scope of this paper, so we simply provide the equation.
 
-
-\section{Black-Scholes Equation}
-The Black-Scholes equation describes the price of an option over time. The derivation of this equation is complex and exceeds the scope of this paper, 
-so we simply provide the equation.
+<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{\partial&space;\mathrm&space;C}{&space;\partial&space;\mathrm&space;t&space;}&space;&plus;&space;\frac{1}{2}\sigma^{2}&space;\mathrm&space;S^{2}&space;\frac{\partial^{2}&space;\mathrm&space;C}{\partial&space;\mathrm&space;C^2}&space;&plus;&space;\mathrm&space;r&space;\mathrm&space;S&space;\frac{\partial&space;\mathrm&space;C}{\partial&space;\mathrm&space;S}\&space;=&space;\mathrm&space;r&space;\mathrm&space;C" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{\partial&space;\mathrm&space;C}{&space;\partial&space;\mathrm&space;t&space;}&space;&plus;&space;\frac{1}{2}\sigma^{2}&space;\mathrm&space;S^{2}&space;\frac{\partial^{2}&space;\mathrm&space;C}{\partial&space;\mathrm&space;C^2}&space;&plus;&space;\mathrm&space;r&space;\mathrm&space;S&space;\frac{\partial&space;\mathrm&space;C}{\partial&space;\mathrm&space;S}\&space;=&space;\mathrm&space;r&space;\mathrm&space;C" title="\frac{\partial \mathrm C}{ \partial \mathrm t } + \frac{1}{2}\sigma^{2} \mathrm S^{2} \frac{\partial^{2} \mathrm C}{\partial \mathrm C^2} + \mathrm r \mathrm S \frac{\partial \mathrm C}{\partial \mathrm S}\ = \mathrm r \mathrm C" /></a>
 
 \begin{equation}
 	\frac{\partial \mathrm C}{ \partial \mathrm t } + \frac{1}{2}\sigma^{2} \mathrm S^{2} \frac{\partial^{2} \mathrm C}{\partial \mathrm C^2}
@@ -28,7 +33,7 @@ so we simply provide the equation.
 Notice that that equation \eqref{eq:1} is a partial differential equation. The solution of this equation gives us the Black-Scholes formula.
 
 
-\section{Black-Scholes formula for European option price}
+## Black-Scholes formula for European option price
 The Black-Scholes formula allows us the calculate the price of European call and put options.
 \begin{equation}
 	\mathrm C(\mathrm S,\mathrm t)= \mathrm N(\mathrm d_1)\mathrm S - \mathrm N(\mathrm d_2) \mathrm K \mathrm e^{-rt}
