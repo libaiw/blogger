@@ -73,10 +73,9 @@ $$\mathrm d_1= \frac{1}{0.17 \sqrt{0.21095}} \left[\ln{\left(\frac{208.99}{210}\
 <!--
 $$\mathrm d_2= \frac{1}{0.17 \sqrt{0.21095}} \left[\ln{\left(\frac{208.99}{210}\right)} + 0.21095\left(0.05 - \frac{0.17^2}{2} \right) \right]=0.0343001$$
 -->
-Now that we've calculated 
-<img src="https://latex.codecogs.com/svg.latex?$\mathrm d_1$ and $\mathrm d_2$ we will calculate $\mathrm N(\mathrm d_1)$ and $\mathrm N(\mathrm d_2)$" title="Example-3" />
+Now that we've calculated d<sub>1</sub> and d<sub>2</sub> we will calculate N(d<sub>1</sub>) and N(d<sub>2</sub>)
 
-[Comments:] $\mathrm d_1$ and $\mathrm d_2$ we will calculate $\mathrm N(\mathrm d_1)$ and $\mathrm N(\mathrm d_2)$. 
+<!-- $\mathrm d_1$ and $\mathrm d_2$ we will calculate $\mathrm N(\mathrm d_1)$ and $\mathrm N(\mathrm d_2)$. -->
 
 It should be noted that it's not possible to evaluate equation 5 by normal means so you must use a table or use computer software to evaluate the following integrals:
 
