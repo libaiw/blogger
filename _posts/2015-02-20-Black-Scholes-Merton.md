@@ -2,6 +2,10 @@
 title: Black-Scholes-Merton Formula 
 ---
 
+\alpha 
+\frac{\frac{x}{1}}{x - y}
+^3/_7
+
 
 \begin{equation*}
 \mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
