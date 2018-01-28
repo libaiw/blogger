@@ -30,7 +30,8 @@ Notice that that equation Eq 1 is a partial differential equation. The solution 
 The Black-Scholes formula allows us the calculate the price of European call and put options.
 
 <img src="https://latex.codecogs.com/svg.latex?\mathrm C(\mathrm S,\mathrm t)= \mathrm N(\mathrm d_1)\mathrm S - \mathrm N(\mathrm d_2) \mathrm K \mathrm e^{-rt}" title="Black-Scholes-Formula-1" />
-[//]:# ui
+
+[Comments]:# ui
 \begin{equation}
 	\mathrm C(\mathrm S,\mathrm t)= \mathrm N(\mathrm d_1)\mathrm S - \mathrm N(\mathrm d_2) \mathrm K \mathrm e^{-rt}
 	\label{eq:2}
