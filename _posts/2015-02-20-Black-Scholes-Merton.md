@@ -31,11 +31,11 @@ The Black-Scholes formula allows us the calculate the price of European call and
 
 <img src="https://latex.codecogs.com/svg.latex?\mathrm C(\mathrm S,\mathrm t)= \mathrm N(\mathrm d_1)\mathrm S - \mathrm N(\mathrm d_2) \mathrm K \mathrm e^{-rt}" title="Black-Scholes-Formula-1" />
 
-[Comments]:# ui
-\begin{equation}
-	\mathrm C(\mathrm S,\mathrm t)= \mathrm N(\mathrm d_1)\mathrm S - \mathrm N(\mathrm d_2) \mathrm K \mathrm e^{-rt}
-	\label{eq:2}
-\end{equation}
+[Comments]: ui
+	\begin{equation}
+		\mathrm C(\mathrm S,\mathrm t)= \mathrm N(\mathrm d_1)\mathrm S - \mathrm N(\mathrm d_2) \mathrm K \mathrm e^{-rt}
+		\label{eq:2}
+	\end{equation}
 
 <img src="https://latex.codecogs.com/svg.latex?\mathrm d_1= \frac{1}{\sigma \sqrt{\mathrm t}} \left[\ln{\left(\frac{S}{K}\right)} + t\left(r + \frac{\sigma^2}{2} \right) \right]" title="Black-Scholes-Formula-2" />
 
