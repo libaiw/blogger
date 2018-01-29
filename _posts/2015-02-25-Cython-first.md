@@ -25,13 +25,13 @@ pyximport.install ()
 import  helloworld
 ```
 c is not referenced in the python modules when the  pyx import code,automatically compiles.py and .pyx file. Automatic build process in the user directory for my users to automatically compile the pyx file. 
-![cython01.jpg](img/cython01.jpg)
+![cython01.png](img/cython01.png)
 If it will automatically compile most of the python standard library, if you use the following statement.
 ```
 (pyimport install pyximport. = True)
 ```
 Under automatically compiled FIG.timeit Module
-![cython02.jpg](img/cython02.jpg)
+![cython02.png](img/cython02.png)
 
 ## Method 2:setup.py
 In the second embodiment is prepared setup.py and run it;
@@ -46,7 +46,7 @@ setup(
 
    
 The setup.py with helloworld.pyx in a file at home, and run python setup.py build_ext--in place.Therefore, as shown in the compilation process 
-![cython03.jpg](img/cython03.jpg)
+![cython03.png](img/cython03.png)
 
 and finally we get the helloworld.pyd (windows platform), if linux is get a helloworld.
 So, then open a command line to run python in the same directory, enter import helloworld,you will get the whole world.
