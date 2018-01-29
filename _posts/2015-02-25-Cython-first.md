@@ -1,5 +1,5 @@
 ---
-title: Cython, the first lesson: Helloworld
+title:  Cython the first lesson - Helloworld
 ---
 
 ## Installation
@@ -50,6 +50,7 @@ The setup.py with helloworld.pyx in a file at home, and run python setup.py buil
 
 and finally we get the helloworld.pyd (windows platform), if linux is get a helloworld.
 So, then open a command line to run python in the same directory, enter import helloworld,you will get the whole world.
+
 ## Summary
 For large module, or the need to write using distutils setup.py file. pyximport usually applied to test myself writing code.
 Good luck.
