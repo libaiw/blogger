@@ -2,7 +2,7 @@
 title: Simple Python to build FTP Server
 ---
 
-### First, how to use line of Python code to achieve FTP server
+### First, how to use one line of Python code to achieve FTP server
 
 This is especially useful when you want to quickly share a directory, just one line of code.
 
